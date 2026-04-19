@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "name": "HDFS",
+      "description": "Hadoop Distributed File System — 分布式文件系统",
+      "owner": "apache",
+      "repo": "hadoop",
+      "keywords": ["hdfs", "namenode", "datanode", "blockmanager", "federation", "erasure"]
+    },
+    {
+      "name": "YARN",
+      "description": "Yet Another Resource Negotiator — 资源调度框架",
+      "owner": "apache",
+      "repo": "hadoop",
+      "keywords": ["yarn", "resourcemanager", "nodemanager", "scheduler", "capacity", "fair"]
+    },
+    {
+      "name": "Hive",
+      "description": "Apache Hive — SQL on Hadoop",
+      "owner": "apache",
+      "repo": "hive",
+      "keywords": []
+    },
+    {
+      "name": "Spark",
+      "description": "Apache Spark — 统一分析引擎",
+      "owner": "apache",
+      "repo": "spark",
+      "keywords": []
+    },
+    {
+      "name": "Flink",
+      "description": "Apache Flink — 流批一体计算引擎",
+      "owner": "apache",
+      "repo": "flink",
+      "keywords": []
+    },
+    {
+      "name": "StarRocks",
+      "description": "StarRocks — 新一代 MPP OLAP 数据库",
+      "owner": "StarRocks",
+      "repo": "starrocks",
+      "keywords": []
+    },
+    {
+      "name": "Trino",
+      "description": "Trino — 分布式 SQL 查询引擎",
+      "owner": "trinodb",
+      "repo": "trino",
+      "keywords": []
+    }
+  ],
+  "featureLabels": [
+    "feature", "enhancement", "improvement", "new feature",
+    "Feature", "Enhancement", "Improvement",
+    "feature request", "type: feature", "kind/feature",
+    "type:feature", "feature-request"
+  ],
+  "featureTitlePatterns": [
+    "^\\[SPARK-", "^\\[FLINK-", "^\\[HIVE-", "^\\[HDFS-", "^\\[YARN-",
+    "^feat:", "^feature:", "^\\[Feature\\]", "^\\[Enhancement\\]",
+    "^Add ", "^Support ", "^Implement ", "^Introduce ", "^Enable ",
+    "^New ", "^\\[NEW\\]", "improve", "optimize", "enhance"
+  ]
+}

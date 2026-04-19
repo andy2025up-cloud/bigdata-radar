@@ -1,0 +1,6 @@
+{
+  "name": "bigdata-radar-scripts",
+  "version": "1.0.0",
+  "description": "BigData Radar — 大数据组件最新 feature 追踪",
+  "type": "module"
+}
